@@ -6,8 +6,8 @@ from .compression import (
 from .io_utils import (
     read_message,
     write_message,
-    write_huffman_compressed,
-    read_huffman_compressed
+    read_huffman_compressed,
+    write_huffman_compressed
 )
 
 __all__ = [
@@ -15,6 +15,6 @@ __all__ = [
     "modified_huffman_decompression",
     "read_message",
     "write_message",
-    "write_huffman_compressed",
-    "read_huffman_compressed"
+    "read_huffman_compressed",
+    "write_huffman_compressed"
 ]
